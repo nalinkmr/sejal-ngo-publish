@@ -1,2 +1,0 @@
-# sejal-ngo-publish
-ngo
