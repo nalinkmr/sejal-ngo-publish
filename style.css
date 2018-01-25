@@ -22,7 +22,7 @@
     width: auto;
 }
 .page-header{
-	float: left;
+	float: center;
 	width: 100%;
 	background-color: #c3d7df;
 }
@@ -134,7 +134,10 @@ img#colarge.animate{
 /*=================================
 10. contact Section
 ==================================*/
-.prateek { transition: all .2s ease-in-out; }
+.prateek { 
+    transition: all .2s ease-in-out; 
+    border: none;
+}
 .prateek:hover { transform: scale(1.1); }
 
 .nalin { transition: all .2s ease-in-out; }
@@ -272,4 +275,8 @@ img#colarge.animate{
 }
 #ini{
     background-color: #ADFF2F;
+}
+
+#hov:hover {
+    background-color: #F6FA7F;
 }
