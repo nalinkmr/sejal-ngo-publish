@@ -11,17 +11,18 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-         <link rel="stylesheet" type="text/css" href="css/animation.css">
+         <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"> 
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+
+
+
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container" id="home">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -35,8 +36,8 @@
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <a href="" class="btn btn-info navbar-btn navbar-right">DONATE <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
-            <ul class="nav navbar-nav navbar-right navbarmain smoth-scroll" >
-              <li class="active"><a href="#" class="">Home</a></li>
+            <ul class=" nav navbar-nav navbar-right navbarmain" >
+              <li class="active"><a href="#home" class="">Home</a></li>
               <li><a href="#about" class="about">About us</a></li>
               <li><a href="#gallery" class="gallery">Gallery</a></li>
               <li><a href="#work" class="work">Our Mission</a></li>
@@ -136,17 +137,24 @@
         </div> <!-- end of page header -->
         <div class="row">
           <div class="col-lg-6 col-sm-6 col-md-6"> <!-- for the heading -->
-            <h3 class="text-justify">With a huge library of photos and thousands more <span class="glyphicon glyphicon-picture"></h3>
+            <h4 class="text-justify"><mark id="mark">EACH SMILE CAN MAKE A DIFFERENCE</mark><span class="glyphicon glyphicon-"></h4>
             <br>
-            <p class="text-justify">Find inspiration in the new photos we hand-select every day or use our search to find and download exactly what you’re looking for.Download free HD wallpapers, backgrounds and lock screens to personalize your cell phone or mobile device using the Zedge app for Android and iPhone. </span>
+            <p class="text-justify" id="if"> It's difficult to bring a smile to someone face, especially when a person is carrying the burden of his family on his shoulder.<br>
+            We are very thankful to God that we were born in a family which gave us proper education, food & shelter.
+We were taught that if women are educated, the whole family is educated</mark> but this saying does not remain same for each and every family.<br> </p>
+<br>
+<p id="chakra"><b>In India, there are many families who are not financially sound to support the education of a girl child rather we can  say families are not financially sound to educate any child, from a very young age they are forced to work and earn there living, boys are forced to work in a garage, in a hotel or they work as a cheap labour and girls are taught to work as housekeeper.<br></b></p>
+
+<p id="sejal"><b>Sejal</b> an initiative works for <b>bringing 'back' the lost smile on everyone's faces</b>.We believe that "Each Smile can make a difference".We come together to remove the barrier between poverty and happiness, by providing education to underprivileged, food & shelter to the ones in need. We work towards fulfilling the broken dreams of underprivileged children and motivate them in achieving it.</p>
+
+
+
             </p>
             <br>
-            <p class="text-justify hidden-sm hidden-xs">Find inspiration in the new photos we hand-select every day or use our search to find and download exactly what you’re looking for.Download free HD wallpapers, backgrounds and lock screens to personalize your cell phone or mobile device using the Zedge app for Android and iPhone. </span>
-            </p>
           </div>
           
           <div class="col-lg-3 col-sm-3 col-md-3" data-offset="10">  <!-- for the image 4 blocks -->
-               <img src="images/mainone.png" class="img-rounded img-responsive" alt="Cinque Terre" width="236" height="304" id="arrow" alt="comic-wallies" > 
+               <img src="images/mainone.jpg" class="img-rounded img-responsive" alt="Cinque Terre" width="236" height="304" id="arrow" alt="comic-wallies" > 
           </div> 
 
           <div class="col-lg-3 col-sm-3 col-md-3 "> 
@@ -160,7 +168,7 @@
             <div class="panel panel-default read">
               <div class="panel-body" style="background-color:#ffff80;">
                 <h3>EDUCATE CHILD <span class="glyphicon glyphicon-book"></span></h3>
-                <p>The Comic Reader (TCR) was a comics news-fanzine published from 1961 to 1984. Debuting in the pre-direct market era TCR was the first regularly published comics industry news fanzine, and was able to secure many contacts from within the ranks of the larger publishers. </p>
+                <p>We all want to see our kids going towards success which is only possible through the good and proper education. Better education is very necessary for all to go ahead in the life and get success. It develops confidence and helps building personality of a person and society. School education plays a great role in everyone’s life.Let us come together and make sure that<br><b>EACH SMILE CAN MAKE A DIFFERENCE</b> </p>
               </div>
             </div>
           </div> 
@@ -169,7 +177,7 @@
             <div class="panel panel-default Youtube">
               <div class="panel-body" style="background-color:#97bf0d;">
                 <h3>CLEAN CITY <span class="glyphicon glyphicon-grain"></span></h3>
-                <p>YouTube is a free video sharing website that lets people upload, view, and share videos. Videos can be rated with a like or dislike, most videos can be commented on if logged in to an account. most videos can be commented on if logged in to an account.</p>
+                <p>Clean City is a social network where members can express themselves and act towards their environment. Protecting our cities is now a shared responsibility. To accomplish this feat, we are taking responsibility to work together with the support of you all in a user-friendly way and protect our enviornment and city.Sooner or later, we will have to recognise that the Earth has rights, too, to live without pollution.</p>
               </div>
             </div>
           </div> 
@@ -191,8 +199,9 @@
 
         <!-- helping section -->
 
-        <section class="section helping-section" id="invovled">
-        <div class="container" align="left" >
+        
+        <div class="container" align="left" id="invovled">
+        <section class="section helping-section" >
                 <div class="row">
                     <div class=" page-header"  align="center">
                         <h2><b>We Need Your Help</b></h2>
@@ -226,8 +235,7 @@
                                         <img src="images/help/helpone.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
-                                        <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
-                                        <p>Rapidiously enhance plug-and play a core and competencies awesome error-free web-readiness. Rapidiously aggregate 2.0 communities rather than enterprise.</p>
+                                        <p>We have taken a step to take care and educated underprivileged kids through an initiative which we named after <b>Sejal</b>.<b id="ini">Sejal</b> a girl who dreams to become a doctor, but due to the financial crisis was not able to continue her studies and had to leave her studies at a very young age.With the love and support which you all have shown we have now three kids under "Sejal" initiative whom we will be educating.We hope that you all will keep supporting us the way you are doing it.Let us come together and make sure that Each Smile Can Make A Difference.</p>
                                         <a href="#" class="btn-two">Read More </a>
                                     </div>
                                 </div>
@@ -243,7 +251,7 @@
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="helpthree">
                                     <div class="helping-img">
-                                        <img src="images/help/helpthree.png" alt="Helping Image">
+                                        <img src="images/help/helpthree.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
                                         <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
@@ -253,7 +261,7 @@
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="helpfour">
                                     <div class="helping-img">
-                                        <img src="images/helping-image-4.jpg" alt="Helping Image">
+                                        <img src="images/help/helpfour.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
                                         <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
@@ -263,7 +271,7 @@
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="helpfive">
                                     <div class="helping-img">
-                                        <img src="images/helping-image-5.jpg" alt="Helping Image">
+                                        <img src="images/help/helpfive.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
                                         <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
@@ -271,9 +279,9 @@
                                         <a href="#" class="btn-two">Read More </a>
                                     </div>                                    
                                 </div>
-                                <div role="tabpanel" class="tab-pane fade" id="help_tab_six">
+                                <div role="tabpanel" class="tab-pane fade" id="helpsix">
                                     <div class="helping-img">
-                                        <img src="images/helping-image-02.jpg" alt="Helping Image">
+                                        <img src="images/help/helpsix.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
                                         <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
@@ -285,8 +293,8 @@
                         </div>
                     </div>
                 </div>          
-        </div>
     </section>      
+    </div>
         <!-- volunteer team -->
       <hr>
       <section class="section volunteer-section">
@@ -509,23 +517,11 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script>
-     $(document).ready(function(){
-  $('a[href^="#"]').on('click',function (e) {
-      e.preventDefault();
 
-      var target = this.hash;
-      var $target = $(target);
-
-      $('html, body').stop().animate({
-          'scrollTop': $target.offset().top
-      }, 900, 'swing', function () {
-          window.location.hash = target;
-      });
-  });
-});
-    </script>
-   </script>
+ <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <!-- Bootstarp js -->
+      
      <script>  
       $(document).ready(function()
       {
