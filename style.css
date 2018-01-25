@@ -251,3 +251,25 @@ img#colarge.animate{
 .btn-two a, a:hover {
     text-decoration: none;
 }
+#mark{
+    background-color: #F08080;
+}
+
+#if{
+    background-color:#FF9933;
+}
+#sejal{
+    background-color: #7FFF00;
+    text-align:wrap;
+}
+#bring{
+    background-color:
+}
+#chakra{
+    background-image: url("images/chakra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ini{
+    background-color: #ADFF2F;
+}
