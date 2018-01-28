@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
          <link rel="stylesheet" type="text/css" href="css/animations.css">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"> 
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -20,8 +21,8 @@
 
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container" id="home">
-        <div class="navbar-header">
+      <div class="container" >
+        <div class="navbar-header" id="home">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -37,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
           
             <ul class=" nav navbar-nav navbar-right navbarmain" >
-              <li class="active"><a href="#home" class="">Home</a></li>
-              <li><a href="#about" class="about">About us</a></li>
+              <li class="active"><a href="#home" class="Home">Home</a></li>
               <li><a href="#gallery" class="gallery">Gallery</a></li>
               <li><a href="#work" class="work">Our Mission</a></li>
               <li><a href="#invovled" class="features">Get Invovled</a></li>
+               <li><a href="#about" class="about">About us</a></li>
               <li><a href="#contact" class="contact">Contact Me</a></li>
-              <a href="" class="btn btn-info navbar-btn navbar-right">DONATE <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+              <a href="" class="btn btn-info navbar-btn navbar-right">DONATE <span class="fa fa-heartbeat" aria-hidden="true"></span></a>
             </ul>
         </div>
       </div>
@@ -130,13 +131,14 @@
     </div> <!-- end of gallery -->
 
     <!-- features -->
-    <div class="row">
-
- <div class="container" id="work">
-      <section>
-        <div class="page-header" align="center">
-          <h2 > <b>OUR MISSION</b> </h2>
-        </div> <!-- end of page header -->
+         <div class="container" id="work">
+                 <section class="section volunteer-section">
+          <div class="row">
+          <div class="section-heading page-header"  align="center">
+            <h3>OUR MISSION</h3>
+          </div>
+          </div>
+        <!-- end of page header -->
         <div class="row">
           <div class="col-lg-6""> <!-- for the heading -->
             <h4 class="text-justify"><mark><u>EACH SMILE CAN MAKE A DIFFERENCE</u></mark><span class="glyphicon glyphicon-"></h4>
@@ -193,37 +195,35 @@ We were taught that if women are educated, the whole family is educated</mark> b
         </div> <!-- end of row -->
       </section>
     </div>
-</div>
          <!-- end of row -->
 
         <!-- helping section -->
 
         
-        <div class="container" align="left" id="invovled">
-        <section class="section helping-section" >
-                <div class="row">
-                    <div class=" page-header"  align="center">
-                        <h2><b>We Need Your Help</b></h2>
-                    </div>      
-                    <hr>              
-                </div>
+        <div class="container" id="invovled">
+                 <section class="section volunteer-section">
+          <div class="row">
+          <div class="section-heading page-header"  align="center">
+            <h3>NEED YOUR HELP</h3>
+          </div>
+          </div>
                 <div class="row">
                     <div class="helping-box">
                         <div class="helping-list">
                            <!-- Nav tabs -->
                           <ul role="tablist" id="yo">
                               <li role="presentation"><a href="#helpone" aria-controls="help_tab_one" role="tab" data-toggle="tab">
-                               <span class="glyphicon glyphicon-book" aria-hidden="true"></span><span> &nbsp;Educate Kids</span></a></li>
+                               <span class="glyphicon glyphicon-book" aria-hidden="true"></span><span> &nbsp;EDUCATE CHILD</span></a></li>
 
-                            <li role="presentation" class="active"><a href="#helptwo" aria-controls="help_tab_two" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-inbox" aria-hidden="true"></span><span>&nbsp;Donate Clothes</span></a></li>
+                            <li role="presentation" class="active"><a href="#helptwo" aria-controls="help_tab_two" role="tab" data-toggle="tab"><span class="fa fa-dropbox" aria-hidden="true"></span><span>&nbsp;DONATE CLOTH</span></a></li>
                             
-                            <li role="presentation"><a href="#helpthree" aria-controls="help_tab_three" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-apple" aria-hidden="true"></span><span>&nbsp;Arrange Food</span></a></li>
+                            <li role="presentation"><a href="#helpthree" aria-controls="helpthree" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-apple" aria-hidden="true"></span><span>&nbsp;ARRANGE FOOD</span></a></li>
                             
-                            <li role="presentation"><a href="#helpfour" aria-controls="help_tab_four" role="tab" data-toggle="tab">
-                           <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span><span>&nbsp;Donate Money</span></a></li>
+                            <li role="presentation"><a href="#helpfour" aria-controls="helpfour" role="tab" data-toggle="tab">
+                           <span class="fa fa-money" aria-hidden="true"></span><span>&nbsp;DONATE MONEY</span></a></li>
                             
-                            <li role="presentation"><a href="#helpfive" aria-controls="help_tab_five" role="tab" data-toggle="tab">
-                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span><span>&nbsp;Become a Volunteer</span></a></li>
+                            <li role="presentation"><a href="#helpfive" aria-controls="helpfive" role="tab" data-toggle="tab">
+                            <span class="fa fa-group" aria-hidden="true"></span><span>&nbsp;COME VOLUN'TR</span></a></li>
                           </ul>                           
                         </div>
                         <div class="helping-details">
@@ -234,7 +234,8 @@ We were taught that if women are educated, the whole family is educated</mark> b
                                         <img src="images/help/helpone.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
-                                        <h4><p>We have taken a step to take care and educated underprivileged kids through an initiative which we named after <b>Sejal</b>.<br><b id="ini">Sejal</b> a girl who dreams to become a doctor, but due to the financial crisis was not able to continue her studies and had to leave her studies at a very young age.With the love and support which you all have shown we have now three kids under "Sejal" initiative whom we will be educating.We hope that you all will keep supporting us the way you are doing it.Let us come together and make sure that Each Smile Can Make A Difference.</p></h4>
+                                    <b id="ini">EDUCATE THEM – COUNTRY STRONG.</b>
+                                        <h5><p>We have taken a step to take care and educated underprivileged kids through an initiative which we named after <b id="ini">SEJAL</b>.<br>Sejal a girl who dreams to become a doctor, but due to the financial crisis was not able to continue her studies and had to leave her studies at a very young age.<br>With the love and support which you all have shown we have now three kids under <b>sejal initiative</b> whom we will be educating.We hope that you all will keep supporting us the way you are doing it.Let us come together and make sure that Each Smile Can Make A Difference.</p></h5>
                                         <a href="#" class="btn-two">Read More </a>
                                     </div>
                                 </div>
@@ -243,8 +244,10 @@ We were taught that if women are educated, the whole family is educated</mark> b
                                         <img src="images/help/helptwo.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
-                                        <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
-                                        <p>Rapidiously enhance plug-and play a core and competencies awesome error-free web-readiness. Rapidiously aggregate 2.0 communities rather than enterprise.</p>
+                                     <b id="ini">SHARE WITH OPEN HEART – SPREAD SMILES.</b>
+                                     <br>
+                                        <p>Don’t we all have a lot of clothes and other household goods just lying at some corner and getting dusted. It’s time to give them a new life by donating them to those who in need and bring smiles on their faces.<br>
+                                        <b >Sejal team</b> believes that we all have that habit of throwing or abandoning things that we don’t use anymore but that can be used to someone in need. we make sure that we deliver them to a place where they can be given a new life.</p>
                                         <a href="#" class="btn-two">Read More </a>
                                     </div>                                    
                                 </div>
@@ -253,8 +256,9 @@ We were taught that if women are educated, the whole family is educated</mark> b
                                         <img src="images/help/helpthree.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
-                                        <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
-                                        <p>Rapidiously enhance plug-and play a core and competencies awesome error-free web-readiness. Rapidiously aggregate 2.0 communities rather than enterprise.</p>
+                                    <b id="ini">LIFT THEM UP – BE STRONG.</b>
+                                        <p>We are passionate in our dedication to the cause of feeding under-privileged children and needy across.<br>
+                                        Pioneering <b>SEJAL TEAM</b> is focused towards distributing nutritious and fresh left over food to poor, needy & hungry children across pockets of poverty in the city.</p>
                                         <a href="#" class="btn-two">Read More </a>
                                     </div>                                    
                                 </div>
@@ -263,8 +267,9 @@ We were taught that if women are educated, the whole family is educated</mark> b
                                         <img src="images/help/helpfour.jpg" alt="Helping Image">
                                     </div>
                                     <div class="helping-description">
-                                        <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
-                                        <p>Rapidiously enhance plug-and play a core and competencies awesome error-free web-readiness. Rapidiously aggregate 2.0 communities rather than enterprise.</p>
+                                    <b id="ini">POOR BY KEEPING – RICH BY GIVING.</b>
+                                    <br>
+                                        <p>As one person we always want world to be a better place but It cannot be changed by one person.Not everything in this world you can buy,it's the smile on others face which you have to earn by donating something to the ones in need.So,lets be poor today and donate a little part from your life from which you can be rich by heart.</p>
                                         <a href="#" class="btn-two">Read More </a>
                                     </div>                                    
                                 </div>
@@ -272,19 +277,11 @@ We were taught that if women are educated, the whole family is educated</mark> b
                                     <div class="helping-img">
                                         <img src="images/help/helpfive.jpg" alt="Helping Image">
                                     </div>
-                                    <div class="helping-description">
-                                        <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
-                                        <p>Rapidiously enhance plug-and play a core and competencies awesome error-free web-readiness. Rapidiously aggregate 2.0 communities rather than enterprise.</p>
-                                        <a href="#" class="btn-two">Read More </a>
-                                    </div>                                    
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="helpsix">
-                                    <div class="helping-img">
-                                        <img src="images/help/helpsix.jpg" alt="Helping Image">
-                                    </div>
-                                    <div class="helping-description">
-                                        <p>Dramatically cultivate premier best practices before auser are centric leadership. Distinctively coordinate enterprise wide and schemas rather than visionary resources. Assertively an matrix out-of-the-box anvortals via installed base and convergence. Dramatically incentivize fully are and researched opportunities rather than backward-compatible an best theme anpractices.</p>
-                                        <p>Rapidiously enhance plug-and play a core and competencies awesome error-free web-readiness. Rapidiously aggregate 2.0 communities rather than enterprise.</p>
+                                    <div class="helping-description" >
+                                    <b id="ini">SUPPORT US – MAKE DIFFERENCE.</b>
+                                        <p>Thank you for your interest in volunteering with Sejal (Each Smile Can make a difference). We need volunteers in large numbers.<BR>
+                                        We are dependant on our supporters and passion of our <b>team sejal</b> to continue our mission of providing the true wishes of children with life-threatening conditions and to enrich the needy people experience with hope, strength, and joy.
+                                       </p>
                                         <a href="#" class="btn-two">Read More </a>
                                     </div>                                    
                                 </div>
@@ -295,17 +292,11 @@ We were taught that if women are educated, the whole family is educated</mark> b
     </section>      
     </div>
         <!-- volunteer team -->
-      <hr>
+         <div class="container" id="about">
       <section class="section volunteer-section">
-        <div class="container" id="about">
-
-
           <div class="row">
           <div class="section-heading page-header"  align="center">
-            <span class="flaticon-solidarity">
-            </span>
             <h3>OUR VOLUNTEER TEAM</h3>
-            <p>enter your name and email</p>
           </div>
           </div>
 
@@ -321,8 +312,8 @@ We were taught that if women are educated, the whole family is educated</mark> b
               </h4>
               <h5>Founder</h5>
             </div>
-            
-              <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+
+              <a href="https://www.facebook.com/nicks.prateek" class="fa fa-facebook" aria-hidden="true"></a>
               <a href="" class="fa fa-twitter" aria-hidden="true"></a>
               <a href="" class="fa fa-google-plus" aria-hidden="true"></a> 
               <a href="" class="fa fa-instagram" aria-hidden="true"></a> 
@@ -342,7 +333,7 @@ We were taught that if women are educated, the whole family is educated</mark> b
               </h4>
               <h5>Founder</h5>
             </div>
-              <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+              <a href="https://www.facebook.com/nalinkmr" class="fa fa-facebook" aria-hidden="true"></a>
               <a href="" class="fa fa-twitter" aria-hidden="true"></a>
               <a href="" class="fa fa-google-plus" aria-hidden="true"></a> 
               <a href="" class="fa fa-instagram" aria-hidden="true"></a> 
@@ -362,7 +353,7 @@ We were taught that if women are educated, the whole family is educated</mark> b
               </h4>
               <h5>Founder</h5>
             </div>
-              <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+              <a href="https://www.facebook.com/shivam.bhatt.7902" class="fa fa-facebook" aria-hidden="true"></a>
               <a href="" class="fa fa-twitter" aria-hidden="true"></a>
               <a href="" class="fa fa-google-plus" aria-hidden="true"></a> 
               <a href="" class="fa fa-instagram" aria-hidden="true"></a> 
@@ -381,7 +372,7 @@ We were taught that if women are educated, the whole family is educated</mark> b
               </h4>
               <h5>Founder</h5>
             </div>
-              <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+              <a href="https://www.facebook.com/profile.php?id=100007004446909" class="fa fa-facebook" aria-hidden="true"></a>
               <a href="" class="fa fa-twitter" aria-hidden="true"></a>
               <a href="" class="fa fa-google-plus" aria-hidden="true"></a> 
               <a href="" class="fa fa-instagram" aria-hidden="true"></a> 
@@ -400,7 +391,7 @@ We were taught that if women are educated, the whole family is educated</mark> b
               </h4>
               <h5>Founder</h5>
             </div>
-              <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+              <a href="https://www.facebook.com/vipin.bhatt.562" class="fa fa-facebook" aria-hidden="true"></a>
               <a href="" class="fa fa-twitter" aria-hidden="true"></a>
               <a href="" class="fa fa-google-plus" aria-hidden="true"></a> 
               <a href="" class="fa fa-instagram" aria-hidden="true"></a> 
@@ -419,7 +410,7 @@ We were taught that if women are educated, the whole family is educated</mark> b
               </h4>
               <h5>Founder</h5>
             </div>
-              <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+              <a href="https://www.facebook.com/Dextersinner" class="fa fa-facebook" aria-hidden="true"></a>
               <a href="" class="fa fa-twitter" aria-hidden="true"></a>
               <a href="" class="fa fa-google-plus" aria-hidden="true"></a> 
               <a href="" class="fa fa-instagram" aria-hidden="true"></a> 
@@ -438,25 +429,30 @@ We were taught that if women are educated, the whole family is educated</mark> b
               </h4>
               <h5>Founder</h5>
             </div>
-              <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+              <a href="https://www.facebook.com/Hackd.by.bios.daddyy" class="fa fa-facebook" aria-hidden="true"></a>
               <a href="" class="fa fa-twitter" aria-hidden="true"></a>
               <a href="" class="fa fa-google-plus" aria-hidden="true"></a> 
               <a href="" class="fa fa-instagram" aria-hidden="true"></a> 
               <a href="" class="fa fa-youtube" aria-hidden="true"></a> 
           </div>
           </div>
-
           </div>
         </div>
         </section>
        <!-- end --> 
     <!-- footer -->
     <footer>
-      <hr>
-      <div class="container text-center" id="box" >
-      <h3>WRITE TO US<h3>
-      <h4><b>Sejal<b></h4><h5><u>Each Smile Can Make A Difference</u></h5>
-      </div>
+
+       <div class="container" id="contact">
+      <section class="section volunteer-section">
+          <div class="row">
+          <div class="section-heading page-header"  align="center">
+            <h3 title="sejal.work.service@gmail.com"><b>WRITE TO US</b></h3>
+              <h4>sejal.work.service@gmail.com</h4><h5><u>Each Smile Can Make A Difference</u></h5>
+          </div>
+          </div>
+          </section>
+
       <br>
       <div class="container text-center">
       <form action="" class="form-inline">
@@ -465,7 +461,7 @@ We were taught that if women are educated, the whole family is educated</mark> b
         <input type="text" class="form-control" id="subscription" placeholder="your name" name="">
       </div>
        <div class="form-group" id="contact">
-        <label for="email">email add.</label>
+        <label for="email">email </label>
         <input type="text" class="form-control" id="email" placeholder="your e-mail" name="">
       </div>
       <button type="submit" class="btn btn-info">subscribe</button>
@@ -474,11 +470,11 @@ We were taught that if women are educated, the whole family is educated</mark> b
       </form>
       <hr>
       <ul class="list-inline">
-        <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="" target="_blank"><i class="fa fa-google-plus"></i></a></li> 
-        <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/common.people.service/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="www.gmail.com" target="_blank"><i class="fa fa-google-plus"></i></a></li> 
+        <li><a href="https://twitter.com/Sejal_Smile/" target="_blank"><i class="fa fa-twitter"></i></a></li>
         <li><a href="" target="_blank"><i class="fa fa-youtube"></i></a></li>
-        <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.instagram.com/sejal.work.service/" target="_blank"><i class="fa fa-instagram"></i></a></li>
       </ul>
         
       <span class="fa-stack fa-lg">
@@ -535,5 +531,11 @@ We were taught that if women are educated, the whole family is educated</mark> b
         });
       });      
     </script>  <!-- end of colarge script -->
+
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
   </body>
 </html>
