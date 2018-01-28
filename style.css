@@ -24,7 +24,7 @@
 .page-header{
 	float: center;
 	width: 100%;
-	background-color: #c3d7df;
+	background-color: #5DADE2;
 }
 .animate{
 	-moz-transition: 1s ease-in-out;
@@ -70,7 +70,7 @@ img#colarge.animate{
     padding-bottom: 90px;
 }
 .section {
-    padding: 120px 0;
+    padding: 70px 0;
 }
 .row {
     margin-right: -15px;
@@ -184,7 +184,7 @@ img#colarge.animate{
 .helping-list ul li a {
     font-size: 18px;
     font-weight: 600;
-    color: #212121;
+    color: #5D6D7E;
     display: block;
     padding: 13px 0;
     text-decoration: none;
@@ -197,6 +197,12 @@ img#colarge.animate{
     padding-left: 20px;
     color: #FFCA00;
 }
+
+#help-back
+{
+    background: #FFCA00;
+}
+
 #yo{
 	    list-style-type: none;
 
@@ -224,10 +230,16 @@ img#colarge.animate{
 .helping-img img {
     width: 100%;
 }
-.helping-description {}
+.helping-description {
+    font-family: 'Poppins', sans-serif;
+    color: #4b4b4b;
+    font-size: 15px;
+    text-shadow: 0 0 black;
+}
 .helping-description p {
     margin-bottom: 36px;
     line-height: 28px;
+    display: block;
 }
 .btn-two {
     font-size: 12px;
@@ -274,9 +286,26 @@ img#colarge.animate{
     background-repeat: no-repeat;
 }
 #ini{
-    background-color: #ADFF2F;
+    background-color: #D2B4DE;
 }
 
 #hov:hover {
     background-color: #F6FA7F;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+.social i{
+    font-size: 450%;
+    margin:1%;
+    padding: 5% 5% 5% 4%;
+    color: #c3d7df;
+}
+.social i:hover{
+    color: #f5f5f5;
 }
